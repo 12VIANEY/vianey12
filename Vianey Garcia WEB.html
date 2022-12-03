@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Vianey Garcia">
+    <meta name="description" content="Portafolio de desarrollo web de Vianey Garcia">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Vianey Garcia | Quimica Industrial</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./Vianey Garcia WEB_files/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="./Vianey Garcia WEB_files/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&amp;family=Rubik+Dirt&amp;family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./Vianey Garcia WEB_files/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador rounded-circle" src="./Vianey Garcia WEB_files/PerfilA.png" alt="Foto de Vianey">
+        <h1>Hola, soy Vianey Garcia</h1>
+        <!-- <h2>Desarrollo de sitios web y escribo articulos sobre programacion</h2>-->
+
+       <!--Animacion-->
+       <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="./Vianey Garcia WEB_files/quimico.png" alt="Instrumentacion." width="200" height="100">
+      </div>
+    </section>
+
+    
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Vianey Garcia</h2>
+        <p class="seccion-texto">Mis pasatiempos favoritos son escuchar musica, leer libros y bailar.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <img src="./Vianey Garcia WEB_files/icono.png" alt="Icono" height="50">
+            <p class="experiencia-titulo">Carrera</p>
+            <p>Mi carrera que estoy estudiando es Quimico Industrial, estoy en Quinto semestre.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">ELEMENTO</span>
+              <span class="badge text-bg-primary">COMPUESTO</span>
+              <span class="badge text-bg-primary">ALEACION</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <img src="./Vianey Garcia WEB_files/icono.png" alt="Icono" height="50">
+            <p class="experiencia-titulo">¿Que es lo que me gusta de Quimica?</p>
+            <p>La carrera de Quimico me gusta mucho ya que haces varios experimentos con elementos quimicos</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">EXPERIMENTO</span>
+              <span class="badge text-bg-primary">PRACTICA</span>
+              <span class="badge text-bg-primary">LABORATORIO</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <img src="./Vianey Garcia WEB_files/icono.png" alt="Icono" height="50">
+            <p class="experiencia-titulo">Desarrollo WEB!</p>
+            <p>Para los dias sabados nos imparten un curso de programación</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">Desarrollo WEB</span>
+              <span class="badge text-bg-primary">PROGRAMACION</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Vianey Garcia WEB_files/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="./Vianey Garcia WEB_files/proyecto1.png" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Vianey Garcia WEB_files/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="./Vianey Garcia WEB_files/proyecto2.png" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./Vianey Garcia WEB_files/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="./Vianey Garcia WEB_files/proyecto3.png" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://es.wikipedia.org/wiki/Qu%C3%ADmica_industrial" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Quimica Industral segun Wikipedia!!
+            </li>
+          </a>
+          <a href="https://concepto.de/elemento-quimico/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Elementos quimicos! Que son?
+            </li>
+          </a>
+          <a href="http://laboratoriosanderson.com/blog/que-es-la-quimica-industrial/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Qué es la química industrial? los Laboratorios Anderson nos lo dicen
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.google.com/search?q=quimica+industrial&rlz=1C1ONGR_esMX1030MX1030&hl=es-419&biw=1366&bih=657&sxsrf=ALiCzsb3Q6KHjK0MulIxWY4eoikT87bfGw%3A1669946595865&ei=41yJY4-7NNHikPIPmPuR8AE&oq=quim&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgQIIxAnMgQIIxAnMgQIIxAnMgQIABBDMgcIABCxAxBDMgcIABCxAxBDMgcIABCxAxBDMgcIABCxAxBDMgoIABCABBCHAhAUMgQIABBDSgQIQRgASgQIRhgAUABYrARgqRBoAHABeACAAZEBiAHtA5IBAzAuNJgBAKABAcABAQ&sclient=gws-wiz-serp" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Opiniones de la Carrera? Aqui estan!</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="lab_quimica-ing_q_0_42.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto"> Me encanta la Quimica Industrial! y realizar practicas en el laboratorio</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Estudiante</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Los ensayos en el laboratorio son siempre mi parte favorita!</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Estudiante</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="istockphoto-530999831-612x612.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Enseñar Quimica es mi pasión! Me encanta el entusiasmo que muestran los jovenes con cada nuevo tema</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Profesor de Quimica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame y hagamos Quimica juntos!!!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:vianeygarcia@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="./Vianey Garcia WEB_files/icono.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendamos Quimica!<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/VianeyGarcia" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/VianeyGarcia/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:vianeygarcia@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Vianey Garcia (2022) ©</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+Footer
+© vianeygarcia (2022), Inc.
+Footer navigation
+Terms
+Privacy
+Securit
